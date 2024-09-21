@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 .nav-box {
@@ -13,11 +14,12 @@ body {
 
 img {
   margin-right: auto;
-  margin-bottom: 15px;
+  padding: 10px;
 }
 .navigations {
   display: flex;
   list-style: none;
+  padding: 10px;
 }
 
 .navigations li a {
@@ -28,20 +30,58 @@ img {
 
 .container {
   margin: 0;
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 100vw;
 }
 .side-purple-box {
-  height: 100vh;
-  width: 20vw;
-  background-color: rgb(91, 7, 170);
-  margin: 0;
+  background-color: #4c0182;
+  width: 13vw;
+  height: auto;
 }
 
 .navigations-left-down {
   list-style: none;
   margin: 0;
+  line-height: 35px;
+  padding-top: 15px;
 }
 
 .navigations-left-down li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+}
+
+main {
+  display: flex;
+}
+
+#box {
+  margin: 10px;
+  display: flex;
+}
+
+.animation-box {
+  width: 29vw;
+  height: 300px;
+  border: 2px solid;
+}
+
+.animation-box img {
+  width: 29vw;
+  height: 300px;
+  padding: 0;
+}
+
+p {
+  margin-left: 10px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  height: 40px;
+  background-color: #818180;
+  align-content: center;
+  font-weight: bold;
 }
